@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beatrice's Book Site</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #fdf6f0, #f0e3e3);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      color: #4b3b3b;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      color: #8b5e5e;
+      margin-bottom: 40px;
+      font-size: 2.8rem;
+      text-shadow: 1px 1px 3px #d6c2c2;
+    }
+
+    .box {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 14px rgba(140, 90, 90, 0.15);
+      padding: 25px 30px;
+      margin-bottom: 30px;
+      transition: box-shadow 0.3s ease;
+    }
+    .box:hover {
+      box-shadow: 0 10px 20px rgba(140, 90, 90, 0.25);
+    }
+
+    label {
+      font-weight: 600;
+      font-size: 1.2rem;
+      display: block;
+      margin-bottom: 15px;
+      color: #6b4f4f;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 160px;
+      border: 2px solid #d9b4b4;
+      border-radius: 10px;
+      font-size: 1rem;
+      padding: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      resize: vertical;
+      transition: border-color 0.3s ease;
+    }
+
+    textarea:focus {
+      border-color: #b56a6a;
+      outline: none;
+      box-shadow: 0 0 8px rgba(181, 106, 106, 0.5);
+    }
+
+    .chapter-header {
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #8b5e5e;
+      font-size: 1.6rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #8b5e5e;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+      .box {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Beatrice's Book Site</h1>
+
+  <section class="box" id="idea-box">
+    <label for="ideas">💡 Idea Box</label>
+    <textarea id="ideas" placeholder="Write your ideas, themes, or notes here..."></textarea>
+  </section>
+
+  <section class="box" id="chapter1">
+    <h2 class="chapter-header">📖 Chapter 1</h2>
+    <textarea placeholder="Start writing Chapter 1 here..."></textarea>
+  </section>
+
+  <section class="box" id="chapter2">
+    <h2 class="chapter-header">📖 Chapter 2</h2>
+    <textarea placeholder="Continue with Chapter 2 here..."></textarea>
+  </section>
+
+  <!-- To add more chapters, just copy one of the above <section class="box"> blocks and update the header -->
+
+  <footer>
+    <p>Created by Beatrice &nbsp;|&nbsp; Keep writing your story! 📚</p>
+  </footer>
+
+</body>
+</html>
