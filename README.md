@@ -1,6 +1,6 @@
 # Beatrice's Book Site ✨
 
-This is a simple personal writing website built with HTML and CSS where Beatrice (you!) can:
+This is a simple personal writing website built with HTML and CSS where Beatrice you can:
 
 - 💡 Jot down new **ideas** in an Idea Box.
 - ✍️ Write your **book chapter by chapter** using built-in writing areas.
